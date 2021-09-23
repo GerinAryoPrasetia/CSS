@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+p {
+    font-family: "Slabo 27px", serif;
+    font-size : 20px;
+    color: whitesmoke;
+}
+
+div:not(.container){
+    padding: 10px;
+}
+
+.container {
+    width: 320px;
+}
+
+.container .flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+
+.box1 {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+}
+
+.box3 {
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
